@@ -1,0 +1,141 @@
+@media(max-width:2560px) {
+  .a {
+    background:rgb(201, 227, 238);
+    padding: 10px 0px;
+  }
+  .a p,i,a {
+    color: grey;
+    margin: 0px;
+  }
+  .a .oo:hover{
+    text-decoration: none;
+   /* background-color: yellow; */
+    color: #FDFFE2;
+  }
+  .a i:hover{
+    background:radial-gradient(#ffef0003, #000000);
+    border-radius: 20px;
+    color: #fff;
+    padding: 1px;
+  }
+  h4{
+    background-color: green;
+  }
+  .car{
+         background: url("../img/Road1.png");
+         background-size: cover;
+         padding: 16% 0px 5%;
+         background-position: center;
+  }
+
+  .car img{
+    animation-name: cars;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+  }
+
+
+  @keyframes cars{
+    from{
+      margin-left: 0px;
+    }
+    to{
+      margin-left: 90%;
+    }
+  }
+
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .img11 {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    border-radius: 50%;
+  }
+ 
+  .img12 {
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    border-radius: 50%;
+  }
+ 
+  .wheel img{
+    animation-name: wheels;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+  }
+
+  @keyframes wheels{
+    from{
+      margin-left: 0px;
+    }
+    to{
+      margin-left: 90%;
+      rotate: 360deg;
+    }
+  }
+
+
+
+ 
+  .qwert{
+    padding: 100px 0px;
+  }
+
+  .qwertuu{
+    background:radial-gradient(rgb(128, 202, 231), #fff);
+    padding-bottom: 40px;
+  }
+
+  .card, .card img{
+    border-radius: 5%;
+  }
+
+}
+@media(max-width:1920px) {
+
+}
+
+
+@media(max-width:1440px) {
+
+}
+
+@media(max-width:1024px) {
+
+}
+
+@media(max-width:768px) {
+  h4{
+    background-color: blue;
+  }
+}
+
+@media(max-width:576px) {
+  .qwert{
+    padding: 20px 0px;
+  }
+}
+
+@media(max-width:425px) {
+
+}
+
+@media(max-width:375px) {
+
+}
+
+@media(max-width:320px) {
+
+}
